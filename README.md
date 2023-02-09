@@ -33,7 +33,7 @@ import (
 
 func execute(ctx context.Context) error {
 	if err := wait.ForDuration(time.Minute).Wait(ctx); err != nil {
-        return err
+        	return err
 	}
 
 	// Do something here.
