@@ -1,4 +1,4 @@
-MODULE_NAME = delay
+MODULE_NAME = wait
 
 VENDOR_DIR = vendor
 
