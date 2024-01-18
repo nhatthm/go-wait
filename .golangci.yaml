@@ -20,6 +20,7 @@ linters-settings:
 linters:
   enable-all: true
   disable:
+    - depguard
     - deadcode
     - exhaustivestruct
     - exhaustruct
@@ -42,6 +43,7 @@ linters:
     - structcheck
     - tagliatelle
     - testpackage
+    - testifylint
     - varcheck
     - varnamelen
     - wastedassign
